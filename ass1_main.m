@@ -1,13 +1,6 @@
 clear all; 
 close all;
 
-%% ======================================================= %%
-% ELEC 6026 Digital Signal Processing
-% Assignment (Ver: Oct. 25, 2017)
-% Prof. S. C. Chan
-% Special thanks to Dr. Z. G. Zhang for providing the signals and codes for analysis.
-
-
 %% Load the synthetic signal
 load Signal.mat
 Fs=200; %% Sampling Frequency
