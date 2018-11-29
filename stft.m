@@ -1,23 +1,6 @@
 function [P, f, S] = stft(x, winparam, nfft, fs)
 % short-time Fourier transform (STFT)
 
-% // Input // %
-% x:        the original data samples (Time Points x Channels)
-% winparam: for an positive interger input, winparam is the window size (default window is hamming)
-%           for a vector input, winparam is a window
-% nfft:     number of fft points
-% fs:       sampling rate
-
-% // Output // %
-% P:        squared magnitude of STFT (spectrogram)
-% f:        evaluated frequency bins in STFT
-% S:        complex time-frequency value of STFT
-
-%% ======================================================= %%
-% ELEC 6081 Biomedical Signals and Systems
-% by Zhiguo Zhang, 09/2013
-% ========================================================  %
-
 fprintf('\nShort-time Fourier Transform: ')
 
 %% Specify Parameters
